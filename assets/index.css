@@ -20,6 +20,20 @@ body{
   color: white;
   text-align: center;
 }
+#left>div:last-of-type{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin:auto
+}
+#left>div:last-of-type img{
+  width: 30px;
+  height: 20px;
+  margin: 30px 10px 0 30px;
+  
+}
+
+
 #profile{
   border-radius: 50%;
   height: 50%;
@@ -41,10 +55,16 @@ nav>a:hover{
   color: white;
   font-weight: bold;
   text-align: center;
+  
+}
+#middle>p{
+  font-size: 30px;
 }
 marquee{
   width: 50%;
-  font-size: larger;
+  font-size: 40px;
+  animation: 10s infinite ;
+  
 }
 #middle>button{
   color: blue;
@@ -59,6 +79,7 @@ marquee{
   background-color: black;
   color: white;
   text-align: center;
+  margin-top: 200px;
 }
 #about>div{
   display: flex;
@@ -69,12 +90,7 @@ marquee{
   color: blue;
   
 }
-#about>h1{
-  position: relative;
-  top: 10px;
-  text-align: center;
-  z-index: 100
-}
+
 #hi{
   text-align: center;
   margin-left: 200px;
@@ -105,4 +121,12 @@ marquee{
 #name *{
   margin-top: 20px;
   
+}
+a>button{
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  height: 80px;
+  width: 150px;
+  border-radius: 30%;
 }
