@@ -69,6 +69,12 @@ marquee{
   color: blue;
   
 }
+#about>h1{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  z-index: 100
+}
 #hi{
   text-align: center;
   margin-left: 200px;
