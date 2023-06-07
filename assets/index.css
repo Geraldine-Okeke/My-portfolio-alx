@@ -1,0 +1,57 @@
+html{
+  font-family: sans-serif;
+}
+body{
+  background-image:url(background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+}
+#left{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 20%;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+#profile{
+  border-radius: 50%;
+  height: 50%;
+  width: 70%;
+  border: 7px gray solid;
+}
+
+nav>a{
+  display: block;
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+}
+nav>a:hover{
+  color: green;
+}
+#middle{
+  position: relative;
+  left: 20%;
+  right: 100%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+marquee{
+  width: 50%;
+  font-size: larger;
+}
+#middle>button{
+  color: blue;
+  background-color: transparent;
+  font-size: 20px;
+  border: 2px blue solid;
+  border-radius: 30%;
+  height: 50px;
+  width: 120px;
+}
