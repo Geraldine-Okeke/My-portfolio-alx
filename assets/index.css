@@ -130,3 +130,21 @@ a>button{
   width: 150px;
   border-radius: 30%;
 }
+#proj-div{
+  background-color: gray;
+  padding-bottom: 50px;
+  margin-left: 260px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+#proj-div>div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: inherit;
+  width: 100%;
+}
+#proj-div>div img{
+  width: 500px;
+ 
+}
